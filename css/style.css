@@ -123,3 +123,19 @@ hr {
     padding: 5px 10px;
     border-radius: 25px;     
   }
+
+  .website{
+    color: white;
+    font-size: 12px;
+    background-color:#EC4A9D;
+    padding: 5px 10px;
+    border-radius: 25px;  
+  }
+
+  .sales {
+    color: white;
+    font-size: 12px;
+    background-color:#A3D116;
+    padding: 5px 10px;
+    border-radius: 25px;  
+  }
