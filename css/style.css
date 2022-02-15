@@ -26,6 +26,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
 h1 {
     display: inline-block;
 }
@@ -45,10 +46,6 @@ div{
     line-height: 100px;
 }
 
-hr {
-    color: #F5F8F9;
-}
-
 /* site_main */
 
 main {
@@ -59,9 +56,15 @@ main {
 
 }
 
+.main_header {
+    border-bottom:  1px solid #CFD5D9;;
+}
+
+
 h3{
     color: #4A4F58;
 }
+
 
 
 .task {
