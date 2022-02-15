@@ -1,12 +1,18 @@
 /* colori
-    #14AAF5 azzurro bottone
-    #C9D0D4 grigio button
-    #2CC6AB verde background
-    #AB5DE6 viola
-    #FF9B00 arancio
-    #EC4A9D fucsia
-    #A3D116 verde pis
-    #F6F8F9 sfondo esterno*/
+      --global-color: #FFFFFF;
+    --bg-body-color: #F6F8F9;
+    --add-task-color: #14AAF5;
+    --add-section-text-color: #CFD5D9;
+    --title-section-color: #4A4F58;
+    --button-editorial-color: #09A9ED;
+    --button-q1-goal-color: #AB5DE6;
+    --button-recruiting-color: #2CC6AB;
+    --button-mobile-color: #FF9B00;
+    --button-website-color: #EC4A9D;
+    --button-sales-color: #A3D116;
+    --flag-false-color: #FF3535;
+    --flag-true-color: #30C7AD;
+    */
 
 header {
     background-color: white;
@@ -16,7 +22,7 @@ header {
 }
 
 body {
-    background-color: #F6F8F9;
+    background-color: #4a91b4;
     margin: 0 auto;
 }
 
@@ -25,12 +31,46 @@ h1 {
 }
 
 .logo_img {
-    width: 100px;
+    vertical-align: top;
+    height: 100px;
+
  
 }
 
 .logo_text {
-    font-family: ;
-    vertical-align: baseline;
+    height: 100px;
+    line-height: 100px;
 }
-    
+
+/* site_main */
+
+main {
+        width: 800px;
+        margin: auto;
+        margin-top: 50px;
+}
+
+.task {
+    background-color: white;
+    padding: 20px 30px 5px;
+}
+
+.add_task {
+    color: white;
+    background-color: #14AAF5;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-color: #14AAF5;
+}
+
+.add_section {
+    color: #CFD5D9;
+    background-color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    border-color: #CFD5D9;  
+}
+
+hr {
+    border: 1px solid color: #CFD5D9;
+}
